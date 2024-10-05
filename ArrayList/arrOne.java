@@ -1,7 +1,7 @@
 package ArrayList;
 import  java.util.*;
 
-public class arrList {
+public class arrOne {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
 

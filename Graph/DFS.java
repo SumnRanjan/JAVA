@@ -2,7 +2,7 @@ package Graph;
 
 import java.util.*;
 
-// Breadth First
+// Depth First
 public class DFS {
 
     public static void dsf(int start, List<Integer>[] graph) {

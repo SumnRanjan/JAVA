@@ -6,7 +6,7 @@ import java.util.*;
 public class DFS {
 
     public static void dsf(int start, List<Integer>[] graph) {
-        boolean[] visited = new boolean[graph.length]; 
+        boolean[] visited = new boolean[graph.length];
         Stack<Integer> st = new Stack<>();
 
         visited[start] = true;
@@ -18,7 +18,7 @@ public class DFS {
             int node = st.pop();
             System.out.print(node + " ");
 
-            for (int neighbor : graph[node]) { 
+            for (int neighbor : graph[node]) {
                 if (!visited[neighbor]) {
                     visited[neighbor] = true;
                     st.add(neighbor);
@@ -66,3 +66,30 @@ public class DFS {
         }
     }
 }
+
+/*
+
+class Solution {
+    // Function to return a list containing the DFS traversal of the graph.
+    private void dfs(int node , boolean [] vis, ArrayList<ArrayList<Integer>> adj , ArrayList<Integer>list){
+        vis[node] = true;
+        list.add(node);
+        
+        for(int it : adj.get(node)){
+            if(vis[it] == false){
+                dfs(it , vis , adj  ,list);
+            }
+        }
+    }
+    public ArrayList<Integer> dfsOfGraph(ArrayList<ArrayList<Integer>> adj) {
+        int v = adj.size();
+        ArrayList<Integer>list = new ArrayList<>();
+        boolean [] vis = new boolean[v];
+        vis[0] = true;
+        dfs(0 , vis , adj , list);
+        return list;
+        
+    }
+} 
+
+ */

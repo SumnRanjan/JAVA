@@ -3,8 +3,8 @@ import java.util.*;
 
 public class countSetBit {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            int a = sc.nextInt();
 //        int count = 0;
 //
 //        while(a > 0){
@@ -14,14 +14,15 @@ public class countSetBit {
 //
 //        System.out.println(count);
 
-        int cnt = 0;
+            int cnt = 0;
 
-        while (a != 0) {
-            a = a & (a - 1);
-            cnt++;
+            while (a != 0) {
+                a = a & (a - 1);
+                cnt++;
+            }
+
+            System.out.println(cnt);
         }
-
-        System.out.println(cnt);
     }
 
 }

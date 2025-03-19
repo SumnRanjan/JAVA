@@ -65,7 +65,7 @@ public class Basic {
         System.out.println("Marks: " + s2.marks);
 
         // Changing name in original student to check if the copied object remains unchanged
-        s1.changeName("luluiii");
+        s1.changeName("lulu");
         System.out.println("\nAfter Changing s1 Name:");
         s1.greeting(); // Will print new name
         s2.greeting(); // Should still have the old name

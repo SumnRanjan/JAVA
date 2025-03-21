@@ -1,6 +1,12 @@
 package OPPS.Static;
 
-public class InnerClass {
+import OPPS.Access.A;
+
+public class InnerClass extends A {
+    public InnerClass(int num, String name) {
+        super(num, name);
+    }
+
     static class Test {
         String name;
 
@@ -22,6 +28,8 @@ public class InnerClass {
         System.out.println(a.name);
         System.out.println(b.name);
         System.out.println(a);
+//        InnerClass obj = new InnerClass(2 , "su");
+//        System.out.println(obj.num);
 
     }
 

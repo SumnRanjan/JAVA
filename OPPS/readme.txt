@@ -61,7 +61,8 @@ lhs(reference i.e. bus) is looked by compiler & rhs (object i.e. new Bus()) is l
 #constructor 
 
 
-The this Keyword:
+this Keyword
+
 Sometimes a method will need to refer to the object that invoked it. To allow this, Java defines the this keyword.
 this can be used inside any method to refer to the current object. That is, this is always a reference to the object on
 which the method was invoked.
@@ -591,3 +592,212 @@ that determines which version of an overridden method will be executed.
 If B extends A then you can override a method in A through B with changing the return type of method to B.
 
 
+
+Access Control:
+
+How a member can be accessed is determined by the access modifier attached to its declaration.
+Usually, you will want to restrict access to the data members of a class—allowing access only through methods.
+Also, there will be times when you will want to define methods that are private to a class.
+
+Java’s access modifiers are public, private, and protected. Java also defines a default access level.
+protected applies only when inheritance is involved.
+
+When no access modifier is used, then by default the member of a class is public within its own package,
+but cannot be accessed outside of its package.
+
+            │ Class │ Package │ Subclass │ Subclass │ World
+            │       │         │(same pkg)│(diff pkg)│(diff pkg & not subclass)
+────────────┼───────┼─────────┼──────────┼──────────┼──────────────────────────
+public      │   +   │    +    │    +     │     +    │   +
+────────────┼───────┼─────────┼──────────┼──────────┼──────────────────────────
+protected   │   +   │    +    │    +     │     +    │
+────────────┼───────┼─────────┼──────────┼──────────┼──────────────────────────
+no modifier │   +   │    +    │    +     │          │
+────────────┼───────┼─────────┼──────────┼──────────┼──────────────────────────
+private     │   +   │         │          │          │
+
++ : accessible
+blank : not accessible
+
+package packageOne;
+public class Base
+{
+    protected void display(){
+        System.out.println("in Base");
+    }
+}
+
+package packageTwo;
+public class Derived extends packageOne.Base{
+    public void show(){
+        new Base().display();       // this is not working
+        new Derived().display();    // is working
+        display();//is working
+    }
+}
+
+protected allows access from subclasses and from other classes in the same package.
+We can use child class to use protected member outside the package but only child class object can access it.
+That's why any Derived class instance can access the protected method in Base.
+The other line creates a Base instance (not a Derived instance!!).
+And access to protected methods of that instance is only allowed from objects of the same package.
+
+display();
+-> allowed, because the caller, an instance of Derived has access to protected members and fields of its subclasses,
+even if they're in different packages
+
+
+new Derived().display();
+-> allowed, because you call the method on an instance of Derived and that instance has access to the protected methods
+of its subclasses
+
+new Base().display();
+-> not allowed because the caller's (the this instance) class is not defined in the same package like the Base class,
+so this can't access the protected method. And it doesn't matter - as we see - that the current subclasses a class from
+that package. That backdoor is closed ;)
+
+Remember that any time talks about a subclass having an access to a superclass member, we could be talking about the
+subclass inheriting the member, not simple accessing the member through a reference to an instance of the superclass.
+
+
+class C
+    protected member;
+
+// in a different package
+
+class S extends C
+
+    obj.member; // only allowed if type of obj is S or subclass of S
+
+The motivation is probably as following. If obj is an S, class S has sufficient knowledge of its internals,
+it has the right to manipulate its members, and it can do this safely.
+If obj is not an S, it's probably another subclass S2 of C, which S has no idea of.
+S2 may have not even been born when S is written. For S to manipulate S2's protected internals is quite dangerous.
+If this is allowed, from S2's point of view, it doesn't know who will tamper with its protected internals and how,
+this makes S2 job very hard to reason about its own state.
+
+Now if obj is D, and D extends S, is it dangerous for S to access obj.member? Not really.
+How S uses member is a shared knowledge of S and all its subclasses, including D. S as the superclass has the right to
+define behaviours, and D as the subclass has the obligation to accept and conform.
+
+For easier understanding, the rule should really be simplified to require obj's (static) type to be exactly S.
+After all, it's very unusual and inappropriate for subclass D to appear in S. And even if it happens,
+that the static type of obj is D, our simplified rule can deal with it easily by upcasting: ((S)obj).member
+
+#Abstract
+
+Sometimes you will want to create a superclass that only defines a generalized form that will be shared by all of its
+subclasses, leaving it to each subclass to fill in the details. Such a class determines the nature of the methods that
+the subclasses must implement.
+You may have methods that must be overridden by the subclass in order for the subclass to have any meaning.
+In this case, you want some way to ensure that a subclass does, indeed, override all necessary methods. Java’s solution
+to this problem is the abstract method.
+You can require that certain methods be overridden by subclasses by specifying the abstract type modifier.
+
+        abstract type name(parameter-list);
+
+These methods are sometimes referred to as subclass's responsibility because they have no implementation specified in
+the superclass.
+Thus, a subclass must override them—it cannot simply use the version defined in the superclass.
+
+Any class that contains one or more abstract methods must also be declared abstract.
+# There can be no objects of an abstract class.
+# You cannot declare abstract constructors, or abstract static methods.
+# You can declare static methods in abstract class.
+Because there can be no objects for abstract class. If they had allowed to call abstract static methods,
+it would that mean we are calling an empty method (abstract) through classname because it is static.
+Any subclass of an abstract class must either implement all of the abstract methods in the superclass,
+or be declared abstract itself.
+Abstract classes can include as much implementation as they see fit i.e.there can be concrete methods(methods with body)
+in abstract class.
+
+Although abstract classes cannot be used to instantiate objects, they can be used to create object references,
+because Java’s approach to run-time polymorphism is implemented through the use of superclass references.
+
+A public constructor on an abstract class doesn't make any sense because you can't instantiate an abstract class directly
+(can only instantiate through a derived type that itself is not marked as abstract)
+Check: https://stackoverflow.com/questions/260666/can-an-abstract-class-have-a-constructor
+
+
+Abstract class vs Interface:
+
+Type of methods:
+Interface can have only abstract methods.
+Abstract class can have abstract and non-abstract methods. From Java 8, it can have default and static methods also.
+
+Final Variables:
+Variables declared in a Java interface are by default final.
+An abstract class may contain non-final variables.
+
+Type of variables:
+Abstract class can have final, non-final, static and non-static variables.
+Interface has only static and final variables.
+
+Implementation:
+Abstract class can provide the implementation of interface.
+Interface can’t provide the implementation of abstract class.
+
+Inheritance vs Abstraction:
+A Java interface can be implemented using keyword “implements”
+and abstract class can be extended using keyword “extends”.
+
+Multiple implementation:
+An interface can extend another Java interface only,
+an abstract class can extend another Java class and implement multiple Java interfaces.
+
+Accessibility of Data Members:
+Members of a Java interface are public by default.
+A Java abstract class can have class members like private, protected, etc.
+
+
+##
+
+An enumeration is a list of named constants.
+In Java, an enumeration defines a class type.
+By making enumerations into classes, the capabilities of the enumeration are greatly expanded.
+
+An enumeration is created using the enum keyword.
+Enum declaration can be done outside a Class or inside a Class but not inside a Method
+We can declare main() method inside enum. Hence we can invoke enum directly from the Command Prompt.
+
+/* internally above enum Color is converted to (Check Example.java)
+class Color
+{
+     public static final Color Red = new Color();
+     public static final Color Blue = new Color();
+     public static final Color Green = new Color();
+}*/
+
+Enum and Inheritance :
+-All enums implicitly extend java.lang.Enum class. As a class can only extend one parent in Java,
+so an enum cannot extend anything else.
+-An enum cannot be a superclass.
+-toString() method is overridden in java.lang.Enum class, which returns enum constant name.
+-enum can implement many interfaces.
+
+Two enumeration constants can be compared for equality by using the == relational operator.
+
+values(), ordinal() and valueOf() methods :
+These methods are present inside java.lang.Enum.
+-values() method can be used to return all values present inside enum.
+-Order is important in enums.By using ordinal() method, each enum constant index can be found,
+just like array index.
+-valueOf() method returns the enum constant of the specified string value, if exists.
+
+enum and constructor :
+-enum can contain constructor and it is executed separately for each enum constant at the time
+of enum class loading.
+-We can’t create enum objects explicitly and hence we can’t invoke enum constructor directly.
+-And the constructor cannot be the public or protected it must have private or default modifiers.
+-Why? if we create public or protected, it will allow initializing more than one objects.
+-This is totally against enum concept.
+
+enum and methods :
+enum can contain concrete methods only i.e. no any abstract method.
+
+You can compare for equality an enumeration constant with any other object by using equals( ),
+which overrides the equals( ) method defined by Object.
+Although equals( ) can compare an enumeration constant to any other object, those two objects
+will be equal only if they both refer to the same constant,within the same enumeration.
+Simply having ordinal values in common will not cause equals( ) to return true if the two constants
+are from different enumerations. Remember, you can compare two enumeration references for equality by using ==.

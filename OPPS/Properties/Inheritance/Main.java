@@ -20,6 +20,9 @@ public class Main {
 
 //        BoxPrices box = new BoxPrices(5 , 10 , 55);
 
+        BoxPrices b = new BoxPrices(1 ,2 , 4 , 5 , 6 ,7);
+        System.out.println(b.weightt);
+
         Box.greeting();
 
         BoxWeight box3 = new BoxWeight();
@@ -28,5 +31,4 @@ public class Main {
         System.out.println(box.getL());
 
     }
-
 }

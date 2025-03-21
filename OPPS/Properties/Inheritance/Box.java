@@ -5,7 +5,7 @@ public class Box {
     double w;
     double h;
 
-//    double weight;
+    double weightt;
 
     public Box (){
 //        super();  //Object Class

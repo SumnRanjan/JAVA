@@ -1,5 +1,7 @@
 package OPPS.Singleton;
 
+import OPPS.Access.A;
+
 public class Singleton {
 
     private Singleton(){

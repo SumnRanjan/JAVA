@@ -684,7 +684,9 @@ For easier understanding, the rule should really be simplified to require obj's 
 After all, it's very unusual and inappropriate for subclass D to appear in S. And even if it happens,
 that the static type of obj is D, our simplified rule can deal with it easily by upcasting: ((S)obj).member
 
-#Abstract
+
+
+#Abstract ------
 
 Sometimes you will want to create a superclass that only defines a generalized form that will be shared by all of its
 subclasses, leaving it to each subclass to fill in the details. Such a class determines the nature of the methods that
@@ -705,7 +707,7 @@ Any class that contains one or more abstract methods must also be declared abstr
 # You cannot declare abstract constructors, or abstract static methods.
 # You can declare static methods in abstract class.
 Because there can be no objects for abstract class. If they had allowed to call abstract static methods,
-it would that mean we are calling an empty method (abstract) through classname because it is static.
+it would that mean we are calling an empty method (abstract) through class name because it is static.
 Any subclass of an abstract class must either implement all of the abstract methods in the superclass,
 or be declared abstract itself.
 Abstract classes can include as much implementation as they see fit i.e.there can be concrete methods(methods with body)

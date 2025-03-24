@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="89e43287-d36b-4023-b143-d408b14ded4a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/OPPS/Generics/Comparing/Student" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../../Program Files/Java/jdk-22/lib/src.zip!/java.base/java/util/Arrays.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2oTWtjoxJGgxJZqOtx2OgRT69sD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AdjacencyMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraySorted.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Basic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearchRec.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.BinaryToInt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BubbleSort.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ClearSetBit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountZero.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CustomArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CustomGenArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Dice.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Die.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FactRec.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Graph.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InnerClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinearSearch.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Number.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberRecu.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.OPPS.Abstract.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OPPS.Interfaces.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OPPS.Properties.Inheritance.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OPPS.Properties.Polymorphism.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OPPS.Singleton.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectPrint.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatternOne.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.PhonePad.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuickSort.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RemoveLastSetBit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseRec.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StaticBlock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StrRemoveChar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumDigitRec.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumRec.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Swap2Num.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ToggleBit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WildCard.executor&quot;: &quot;Run&quot;,
+    &quot;Application.checkSetBit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.countSetBit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.countsetBit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.l.executor&quot;: &quot;Run&quot;,
+    &quot;Application.permutationRec.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.powerOf2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.setIthBit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.subSeq.executor&quot;: &quot;Run&quot;,
+    &quot;Application.subSet.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JAVA&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
+  }
+}</component>
+  <component name="RunAnythingCache">
+    <myKeys>
+      <visibility group="Gradle Tasks" flag="true" />
+      <visibility group="Maven Goals" flag="true" />
+      <visibility group="Recent projects" flag="true" />
+      <visibility group="Run configurations" flag="true" />
+      <visibility group="com.intellij.ide.actions.runAnything.RunAnythingRunConfigurationProvider" flag="true" />
+      <visibility group="com.intellij.ide.actions.runAnything.activity.RunAnythingRecentProjectProvider" flag="true" />
+      <visibility group="org.jetbrains.idea.maven.execution.MavenRunAnythingProvider" flag="true" />
+      <visibility group="org.jetbrains.plugins.gradle.execution.GradleRunAnythingProvider" flag="true" />
+    </myKeys>
+  </component>
+  <component name="RunManager" selected="Application.CustomGenArrayList">
+    <configuration name="CustomArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OPPS.Generics.CustomArrayList" />
+      <module name="Desktop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OPPS.Generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomGenArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OPPS.Generics.CustomGenArrayList" />
+      <module name="Desktop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OPPS.Generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OPPS.Interfaces.Neasted.Main" />
+      <module name="Desktop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OPPS.Interfaces.Neasted.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WildCard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OPPS.Generics.WildCard" />
+      <module name="Desktop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OPPS.Generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="l" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OPPS.Interfaces.extendDem02.l" />
+      <module name="Desktop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OPPS.Interfaces.extendDem02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CustomGenArrayList" />
+        <item itemvalue="Application.WildCard" />
+        <item itemvalue="Application.CustomArrayList" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.l" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89e43287-d36b-4023-b143-d408b14ded4a" name="Changes" comment="" />
+      <created>1730894264578</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730894264578</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Recursion/BinarySearchRec.java</url>
+          <line>10</line>
+          <properties class="Recursion.BinarySearchRec" method="binarySearch">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Recursion/NumberRecu.java</url>
+          <line>9</line>
+          <properties class="Recursion.NumberRecu" method="print">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Recursion/FactRec.java</url>
+          <line>9</line>
+          <properties class="Recursion.FactRec" method="fact">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Recursion/SumDigitRec.java</url>
+          <line>11</line>
+          <properties class="Recursion.SumDigitRec" method="sumDigit">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Recursion/ReverseRec.java</url>
+          <line>6</line>
+          <properties class="Recursion.ReverseRec" method="revNum">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Recursion/PatternOne.java</url>
+          <line>8</line>
+          <properties class="Recursion.PatternOne" method="triangle">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Recursion/subSeq.java</url>
+          <line>13</line>
+          <properties class="Recursion.subSeq" method="subset">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Recursion/subSet.java</url>
+          <line>8</line>
+          <properties class="Recursion.subSet" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Recursion/permutationRec.java</url>
+          <line>13</line>
+          <properties class="Recursion.permutationRec" method="permutation">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Recursion/Dice.java</url>
+          <line>15</line>
+          <properties class="Recursion.Dice" method="dice">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Recursion/StrRemoveChar.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Recursion/subSeq.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,5 +1,5 @@
-.gitignore
-/out
+/.gitignore
+
 /Destop.imp
-/.idea
+
 /.vscode

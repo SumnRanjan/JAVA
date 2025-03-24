@@ -1,4 +1,4 @@
-.gitignore
+/.gitignore
 /out
 /Destop.imp
 /.idea

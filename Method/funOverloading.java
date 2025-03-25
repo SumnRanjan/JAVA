@@ -1,7 +1,7 @@
 package 
 Method;
 
-public class funOverloading {
+    public class funOverloading {
     public static void main(String[] args) {
         fun(15);
         fun("Suman");

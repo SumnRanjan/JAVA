@@ -1,4 +1,4 @@
-package OPPS;
+ package OPPS;
 
 class Student {
     int roll;
@@ -78,9 +78,6 @@ public class Basic {
         final Student su = new Student(1,"suman" , 55.6f);
         su.name = "lo";
         System.out.println(su.name);
-
-
-        
 
         // Student Sum;
         // for (int i = 0; i < 100000000; i++) {

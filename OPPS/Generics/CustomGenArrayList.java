@@ -1,7 +1,5 @@
 package OPPS.Generics;
 
-import OPPS.Properties.Polymorphism.Number;
-
 import java.util.Arrays;
 
 //here t should either number or its subclasses

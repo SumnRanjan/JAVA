@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="25abfb4a-dd78-495f-ac20-6df6b8226c30" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OPPS/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/OPPS/Basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OPPS/Generics/Comparing/Student" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OPPS/Generics/CustomGenArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/OPPS/Generics/CustomGenArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/OPPS/Generics/CustomArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/OPPS/Generics/CustomGenArrayList.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2ulJTYq1NjhfWcd4iXTWBU3QQHL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Basic (1).executor": "Run",
+    "Application.Basic.executor": "Run",
+    "Application.CustomArrayList.executor": "Run",
+    "Application.CustomGenArrayList.executor": "Run",
+    "Application.Demo.executor": "Run",
+    "Application.LambdaFunction.executor": "Debug",
+    "Application.Main.executor": "Run",
+    "Application.OPPS.ExceptionHandling.Main.executor": "Run",
+    "Application.OPPS.ObjectCloning.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.OPPS.ObjectCloning.Main">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OPPS.ExceptionHandling.Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OPPS.ExceptionHandling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OPPS.Generics.LambdaFunction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OPPS.Generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OPPS.Generics.Comparing.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OPPS.Generics.Comparing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OPPS.ExceptionHandling.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OPPS.ExceptionHandling.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OPPS.ExceptionHandling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OPPS.ObjectCloning.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OPPS.ObjectCloning.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OPPS.ObjectCloning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OPPS.ObjectCloning.Main" />
+        <item itemvalue="Application.OPPS.ExceptionHandling.Main" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.LambdaFunction" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25abfb4a-dd78-495f-ac20-6df6b8226c30" name="Changes" comment="" />
+      <created>1742817237676</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742817237676</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/OPPS/Generics/CustomGenArrayList.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/OPPS/ExceptionHandling/Main.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

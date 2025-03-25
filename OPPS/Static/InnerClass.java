@@ -32,5 +32,4 @@ public class InnerClass extends A {
 //        System.out.println(obj.num);
 
     }
-
 }
